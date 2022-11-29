@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(240,242,244);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    background-color: darkorchid;
+}
+
+#welcome {
+    background-color: aquamarine;
+}
+
+#right_section {
+
+}
+
+#middle_section {
+
+}
+
+#left_section {
+
+}
+
+#logo {
+    background-color: blue;
+    grid-area: lo;
+    width: 1fr;
+}
+
+#title {
+    background-color: crimson;
+    grid-area: ti;
+    width: 2fr;
+}
+
+#language {
+    background-color: darkgreen;
+    grid-area: la;
+}
+
+#start {
+    grid-area: st;
+}
+
+#resturant {
+    grid-area: re;
+}
+
+#om_oss {
+    grid-area: om;
+}
+
+
+#grid_wrapper {
+    display: grid;
+    grid-template-areas: 
+    "lo ti la"
+    "";
+}
+
+footer {
+    grid-area: fo;
+}
