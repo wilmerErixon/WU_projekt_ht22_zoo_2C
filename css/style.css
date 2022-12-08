@@ -7,69 +7,36 @@
 }
 
 header {
-    background: rgb(240,242,244);
+    background: rgb(0, 128, 255);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    width: 100vw;
 }
 
 nav {
-    background-color: darkorchid;
+    background: rgb(255, 0, 212);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 7vh;
 }
 
-#welcome {
-    background-color: aquamarine;
+#logo{
+    background-color: blueviolet;
 }
 
-#right_section {
-
-}
-
-#middle_section {
-
-}
-
-#left_section {
+#language{
+    background-color: brown;
+    width: 256px;
+    height: auto;
+    text-align: center;
 
 }
 
-#logo {
-    background-color: blue;
-    grid-area: lo;
-    width: 1fr;
-}
-
-#title {
-    background-color: crimson;
-    grid-area: ti;
-    width: 2fr;
-}
-
-#language {
-    background-color: darkgreen;
-    grid-area: la;
-}
-
-#start {
-    grid-area: st;
-}
-
-#resturant {
-    grid-area: re;
-}
-
-#om_oss {
-    grid-area: om;
-}
-
-
-#grid_wrapper {
-    display: grid;
-    grid-template-areas: 
-    "lo ti la"
-    "";
-}
-
-footer {
-    grid-area: fo;
+#resturant{
+    border: 5px;
+    width: 10%;
+    height: auto;
 }
