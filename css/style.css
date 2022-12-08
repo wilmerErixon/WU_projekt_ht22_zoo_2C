@@ -12,19 +12,26 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
+    height: 13vh;
 }
 
-nav {
-    background: rgb(255, 0, 212);
-    display: flex;
-    justify-content: space-around;
+#taskbar {
+    display: grid;
     align-items: center;
-    width: 100vw;
+    padding-left: 15%;
+    grid-template-columns: 33vw 33vw 33vw;
+    grid-template-rows: 100%;
     height: 7vh;
+    width: 100%;
+    grid-template-areas: "str" "res" "oms";
+    background-color: cornflowerblue;
+    position: sticky;
+    top: 0;
 }
+
 
 #logo{
-    background-color: blueviolet;
+
 }
 
 #language{
@@ -35,8 +42,34 @@ nav {
 
 }
 
+.button {
+    text-decoration: none;
+    border: solid black 5px;
+    border-radius: 15px;
+    padding: 2%;
+}
+
+#start{
+    grid-area: str;
+}
+
 #resturant{
-    border: 5px;
-    width: 10%;
-    height: auto;
+    grid-area: res;
+}
+
+#om_oss{
+    grid-area: oms;
+}
+
+
+#welcome{
+
+}
+
+#right_section{
+    
+}
+
+#middle_section{
+    
 }
