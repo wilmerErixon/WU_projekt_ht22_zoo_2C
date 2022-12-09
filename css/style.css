@@ -11,14 +11,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
-    height: 13vh;
+    width: 100%;
+    height: 16vh;
 }
 
 #taskbar {
     display: grid;
     align-items: center;
-    padding-left: 15%;
+    padding-left: 14%;
     grid-template-columns: 33vw 33vw 33vw;
     grid-template-rows: 100%;
     height: 7vh;
@@ -36,10 +36,11 @@ header {
 
 #language{
     background-color: brown;
-    width: 256px;
+    margin-right: 175px;
+    margin-left: 50px;
     height: auto;
     text-align: center;
-
+    text-decoration: none;
 }
 
 .button {
@@ -51,6 +52,7 @@ header {
 
 #start{
     grid-area: str;
+
 }
 
 #resturant{
@@ -63,7 +65,16 @@ header {
 
 
 #welcome{
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    padding-top: 15vh;
+}
 
+#åskort_reklam{
+    background-color: aqua;
+    height: 40vh;
 }
 
 #right_section{
@@ -72,4 +83,8 @@ header {
 
 #middle_section{
     
+}
+
+#left_section{
+
 }
