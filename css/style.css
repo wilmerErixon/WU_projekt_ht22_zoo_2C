@@ -18,8 +18,8 @@ header {
 #taskbar {
     display: grid;
     align-items: center;
-    padding-left: 14%;
-    grid-template-columns: 33vw 33vw 33vw;
+    padding-left: 20%;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100%;
     height: 7vh;
     width: 100%;
