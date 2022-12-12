@@ -1,0 +1,13 @@
+height: 40vh;
+width: 100%;
+
+display: grid;
+align-items: center;
+grid-template-columns: 1fr 2fr 1fr;
+grid-template-rows: 100%;
+grid-template-areas: "rse" "mse" "lse";
+justify-content: center;
+
+grid-template-areas: 
+"mr1" "wr0" "wr0" "wr0" "mr2"
+"mr3" "mr4" "mr5" "mr6" "mr7";

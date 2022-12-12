@@ -13,22 +13,34 @@ header {
     align-items: center;
     width: 100%;
     height: 16vh;
+    border: solid black 5px;
+    border-bottom: 0px;
+}
+
+body{
+
+}
+
+footer{
+    background-color: green;
+    height: 7vh;
 }
 
 #taskbar {
     display: grid;
     align-items: center;
-    padding-left: 20%;
+    padding-left: 21%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100%;
     height: 7vh;
     width: 100%;
-    grid-template-areas: "str" "res" "oms";
+    grid-template-areas: 
+    "str" "res" "oms";
     background-color: cornflowerblue;
     position: sticky;
     top: 0;
+    border: solid black 5px;
 }
-
 
 #logo{
 
@@ -61,30 +73,156 @@ header {
 
 #om_oss{
     grid-area: oms;
+
 }
 
-
 #welcome{
-    background-color: chocolate;
+    background-image: url("../img/animals/capybara-night.jpg");
+    background-size: 100%;
+    background-position: center;
     display: flex;
     justify-content: center;
     height: 60vh;
-    padding-top: 15vh;
+    padding-top: 17vh;
 }
 
-#åskort_reklam{
+#welcome_txt{
+    color: white;
+    font-size: 5vh;
+}
+
+#grid_wrapper_AR{
     background-color: aqua;
+    height: 40vh;
+    display: grid;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+#AR{
+    display: flex;
+    flex-direction: row;
+}
+
+#right_section_AR{
+    background-color: brown;
+    width: 25vw;
     height: 40vh;
 }
 
-#right_section{
-    
+#middle_section_AR{
+    background-color: blueviolet;
+    width: 50vw;
+    height: 40vh;
 }
 
-#middle_section{
-    
+#left_section_AR{
+    background-color: burlywood;
+    width: 25vw;
+    height: 40vh;
 }
 
-#left_section{
+#grid_wrapper_om_oss{
+    background-color: aqua;
+    height: 70vh;
+    display: grid;
+    align-items: center;
+    overflow-x: hidden;
+}
 
+#om_oss_page{
+    display: flex;
+    flex-direction: row;
+}
+
+#right_section_om_oss{
+    background-color: brown;
+    width: 33.33%;
+    height: 70vh;
+}
+
+#middle_section_om_oss{
+    background-color: blueviolet;
+    width: 33.33%;
+    height: 70vh;
+}
+
+#left_section_om_oss{
+    background-color: burlywood;
+    width: 33.33%;
+    height: 70vh;
+}
+
+#grid_wrapper_resturnat{
+    background-color: black;
+    display: grid;
+}
+
+.maträtt_card{
+
+}
+
+#row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 35vh;
+}
+
+#row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 35vh;
+}
+
+#welcome_resturant{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    padding-top: 16vh;
+    grid-area: wr0;
+}
+
+#maträtt_1{
+    background-color: brown;
+    width: 20vw;
+    grid-area: mr1;
+}
+
+#maträtt_2{
+    background-color: blueviolet;
+    width: 20vw;
+    grid-area: mr2;
+}
+
+#maträtt_3{
+    background-color: chocolate;
+    width: 20vw;
+    grid-area: mr3;
+}
+
+#maträtt_4{
+    background-color: darkkhaki;
+    width: 20vw;
+    grid-area: mr4;
+}
+
+#maträtt_5{
+    background-color: olivedrab;
+    width: 20vw;
+    grid-area: mr5;
+}
+
+#maträtt_6{
+    background-color: beige;
+    width: 20vw;
+    grid-area: mr6;
+}
+
+#maträtt_7{
+    background-color: darkslategray;
+    width: 20vw;
+    grid-area: mr7;
 }
