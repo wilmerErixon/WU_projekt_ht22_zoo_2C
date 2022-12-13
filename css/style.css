@@ -24,6 +24,7 @@ body{
 footer{
     background-color: green;
     height: 7vh;
+    border: solid black 5px;
 }
 
 #taskbar {
@@ -35,7 +36,7 @@ footer{
     height: 7vh;
     width: 100%;
     grid-template-areas: 
-    "str" "res" "oms";
+    "str res oms";
     background-color: cornflowerblue;
     position: sticky;
     top: 0;
@@ -64,7 +65,6 @@ footer{
 
 #start{
     grid-area: str;
-
 }
 
 #resturant{
@@ -73,22 +73,24 @@ footer{
 
 #om_oss{
     grid-area: oms;
-
 }
 
 #welcome{
     background-image: url("../img/animals/capybara-night.jpg");
     background-size: 100%;
-    background-position: center;
+    background-position: 50% 60%;
     display: flex;
     justify-content: center;
-    height: 60vh;
-    padding-top: 17vh;
+    height: 70vh;
+    padding-top: 12.5vh;
+    border: solid black 5px;
+    border-top: none;
 }
 
 #welcome_txt{
     color: white;
-    font-size: 5vh;
+    font-size: 8vh;
+    text-decoration: underline;
 }
 
 #grid_wrapper_AR{
@@ -105,21 +107,40 @@ footer{
 }
 
 #right_section_AR{
-    background-color: brown;
-    width: 25vw;
+    background-image: url("../img/animals/reklam-toucan-zoo.jpg");
+    background-size: 200%;
+    background-position: 50% 50%;
+    width: 25%;
     height: 40vh;
+    border: solid black 5px;
+    border-top: none;
+    border-bottom: none;
+    padding-top: 3vh;
+}
+
+#also_visit_toucan{
+    display: flex;
+    justify-content: center;
+}
+
+#toucan_zoo{
+    display: flex;
+    justify-content: center;
 }
 
 #middle_section_AR{
     background-color: blueviolet;
-    width: 50vw;
+    width: 50%;
     height: 40vh;
 }
 
 #left_section_AR{
     background-color: burlywood;
-    width: 25vw;
+    width: 25%;
     height: 40vh;
+    border: solid black 5px;
+    border-top: none;
+    border-bottom: none;
 }
 
 #grid_wrapper_om_oss{
