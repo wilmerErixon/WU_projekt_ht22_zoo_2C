@@ -82,7 +82,7 @@ footer{
     display: flex;
     justify-content: center;
     height: 70vh;
-    padding-top: 12.5vh;
+    padding-top: 12vh;
     border: solid black 5px;
     border-top: none;
 }
@@ -128,19 +128,39 @@ footer{
     justify-content: center;
 }
 
-#middle_section_AR{
+#middle_section_AR_1{
     background-color: blueviolet;
-    width: 50%;
+    width: 16.66%;
+    height: 40vh;
+    overflow-y: hidden;
+}
+#middle_section_AR_2{
+    background-color: darkolivegreen;
+    width: 16.66%;
+    height: 40vh;
+    overflow-y: hidden;
+}
+#middle_section_AR_3{
+    background-color: hotpink;
+    width: 16.66%;
+    height: 40vh;
+    overflow-y: hidden;
+}
+
+#arskort{
     height: 40vh;
 }
 
 #left_section_AR{
-    background-color: burlywood;
+    background-image: url("../img/animals/reklam-toucan-zoo.jpg");
+    background-size: 200%;
+    background-position: 50% 50%;
     width: 25%;
     height: 40vh;
     border: solid black 5px;
     border-top: none;
     border-bottom: none;
+    padding-top: 3vh;
 }
 
 #grid_wrapper_om_oss{
