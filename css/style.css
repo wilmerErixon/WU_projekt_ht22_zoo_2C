@@ -7,24 +7,50 @@
 }
 
 header {
-    background: rgb(0, 128, 255);
+    background-color:darkolivegreen ;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 16vh;
+    height: 100px;
     border: solid black 5px;
-    border-bottom: 0px;
-}
-
-body{
-
+    border-bottom: none;
 }
 
 footer{
-    background-color: green;
-    height: 7vh;
+    background-color: darkolivegreen;
+    height: 55px;
     border: solid black 5px;
+}
+
+p{
+    font-size: 110%;
+}
+
+h2{
+    font-size: 3.5vh;
+}
+
+h3{
+    font-size: 120%;
+}
+
+#logo{
+    margin-top: 1%;
+}
+
+#title{
+}
+
+#language{
+    background: rgba(0, 0, 0, .7);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 109px;
+    margin-right: 109px;
 }
 
 #taskbar {
@@ -33,27 +59,14 @@ footer{
     padding-left: 21%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100%;
-    height: 7vh;
+    height: 55px;
     width: 100%;
     grid-template-areas: 
     "str res oms";
-    background-color: cornflowerblue;
+    background-color:rgb(114, 127, 91);
     position: sticky;
     top: 0;
     border: solid black 5px;
-}
-
-#logo{
-
-}
-
-#language{
-    background-color: brown;
-    margin-right: 175px;
-    margin-left: 50px;
-    height: auto;
-    text-align: center;
-    text-decoration: none;
 }
 
 .button {
@@ -81,6 +94,7 @@ footer{
     background-position: 50% 60%;
     display: flex;
     justify-content: center;
+    width: 100%;
     height: 70vh;
     padding-top: 12vh;
     border: solid black 5px;
@@ -88,13 +102,14 @@ footer{
 }
 
 #welcome_txt{
+    background: rgba(0, 0, 0, .7);
+    height: 9vh;
     color: white;
     font-size: 8vh;
-    text-decoration: underline;
 }
 
 #grid_wrapper_AR{
-    background-color: aqua;
+    background-color: olive;
     height: 40vh;
     display: grid;
     align-items: center;
@@ -106,51 +121,6 @@ footer{
     flex-direction: row;
 }
 
-#right_section_AR{
-    background-image: url("../img/animals/reklam-toucan-zoo.jpg");
-    background-size: 200%;
-    background-position: 50% 50%;
-    width: 25%;
-    height: 40vh;
-    border: solid black 5px;
-    border-top: none;
-    border-bottom: none;
-    padding-top: 3vh;
-}
-
-#also_visit_toucan{
-    display: flex;
-    justify-content: center;
-}
-
-#toucan_zoo{
-    display: flex;
-    justify-content: center;
-}
-
-#middle_section_AR_1{
-    background-color: blueviolet;
-    width: 16.66%;
-    height: 40vh;
-    overflow-y: hidden;
-}
-#middle_section_AR_2{
-    background-color: darkolivegreen;
-    width: 16.66%;
-    height: 40vh;
-    overflow-y: hidden;
-}
-#middle_section_AR_3{
-    background-color: hotpink;
-    width: 16.66%;
-    height: 40vh;
-    overflow-y: hidden;
-}
-
-#arskort{
-    height: 40vh;
-}
-
 #left_section_AR{
     background-image: url("../img/animals/reklam-toucan-zoo.jpg");
     background-size: 200%;
@@ -160,12 +130,64 @@ footer{
     border: solid black 5px;
     border-top: none;
     border-bottom: none;
-    padding-top: 3vh;
+    padding-top: 5vh;   
+}
+
+.also_visit_zoo{
+    background: rgba(0, 0, 0, .7);
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin-left: 35%;
+}
+
+.reklam_zoo{
+    background: rgba(0, 0, 0, .7);
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 97%;
+    margin-left: 1.5%;
+}
+
+#middle_section_AR{
+    background-image: url(../img/animals/Calender.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    width: 50%;
+    height: 40vh;
+    overflow-y: hidden;
+}
+
+#arskort{
+    background: rgba(0, 0, 0, .7);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 8vh;
+}
+
+#right_section_AR{
+    background-image: url("../img/animals/NOL_YORK.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 25%;
+    height: 40vh;
+    border: solid black 5px;
+    border-top: none;
+    border-bottom: none;
+    padding-top: 10vh;
 }
 
 #grid_wrapper_om_oss{
     background-color: aqua;
-    height: 70vh;
+    height: auto;
     display: grid;
     align-items: center;
     overflow-x: hidden;
@@ -174,24 +196,39 @@ footer{
 #om_oss_page{
     display: flex;
     flex-direction: row;
+    overflow-y: hidden;
+}
+
+.om_oss_text{
+    background: rgba(0, 0, 0, .7);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #right_section_om_oss{
-    background-color: brown;
+    background-color: rgb(114, 127, 91);
     width: 33.33%;
-    height: 70vh;
+    height: auto;
+    padding: 1%;
 }
 
 #middle_section_om_oss{
-    background-color: blueviolet;
+    background-color: rgb(114, 127, 91);
     width: 33.33%;
-    height: 70vh;
+    height: auto;
+    padding: 1%;
 }
 
 #left_section_om_oss{
-    background-color: burlywood;
+    background-color: rgb(114, 127, 91);
     width: 33.33%;
-    height: 70vh;
+    height: auto;
+    padding: 1%;
 }
 
 #grid_wrapper_resturnat{
@@ -200,7 +237,29 @@ footer{
 }
 
 .maträtt_card{
+    border: solid black 5px;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
 
+.mattext{
+    background: rgba(0, 0, 0, .7);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 6vh;
+}
+
+#mattext_KP{
+    width: 95%;
+}
+
+#resturant_text{
+    width: 50%;
 }
 
 #row1{
@@ -217,53 +276,76 @@ footer{
     height: 35vh;
 }
 
+
 #welcome_resturant{
-    background-color: aqua;
+    background-image: url(../img/food/ResturantInside.jpg);
+    background-size: 100%;
+    background-position: 40% 60%;
     display: flex;
     justify-content: center;
-    width: 60vw;
+    width: 60%;
     padding-top: 16vh;
     grid-area: wr0;
 }
 
 #maträtt_1{
-    background-color: brown;
-    width: 20vw;
+    background-image: url(../img/food/CapybaraHamburger.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 20%;
     grid-area: mr1;
+    border-top: none;
 }
 
 #maträtt_2{
-    background-color: blueviolet;
-    width: 20vw;
+    background-image: url(../img/food/CapybaraDumpling.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 20%;
     grid-area: mr2;
+    border-top: none;
 }
 
 #maträtt_3{
-    background-color: chocolate;
-    width: 20vw;
+    background-image: url(../img/food/CapybaraLasagna.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 20%;
     grid-area: mr3;
 }
 
 #maträtt_4{
-    background-color: darkkhaki;
-    width: 20vw;
+    background-image: url(../img/food/CapybaraPizza.jpg);
+    background-size: 130%;
+    background-position: left;
+    width: 20%;
     grid-area: mr4;
+    border-left: none;
 }
 
 #maträtt_5{
-    background-color: olivedrab;
-    width: 20vw;
+    background-image: url(../img/food/CapybaraBolognese.jpg);
+    background-size: 105%;
+    background-position: left 15% top 50%;
+    width: 20%;
     grid-area: mr5;
+    border-left: none;
+    border-right: none;
 }
 
 #maträtt_6{
-    background-color: beige;
-    width: 20vw;
+    background-image: url(../img/food/CapybaraPadThai.jpg);
+    background-size: 105%;
+    background-position: right 0% top 60%;
+    width: 20%;
     grid-area: mr6;
+    border-right: none;
 }
 
 #maträtt_7{
-    background-color: darkslategray;
-    width: 20vw;
+    background-image: url(../img/food/CapybaraMeatballs.jpg);
+    background-size: cover;
+    background-position: left 60% top 50%;
+    width: 20%;
     grid-area: mr7;
 }
