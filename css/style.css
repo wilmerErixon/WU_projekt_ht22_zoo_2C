@@ -23,6 +23,10 @@ footer{
     border: solid black 5px;
 }
 
+.footer{
+    font-size: 100%;
+}
+
 p{
     font-size: 110%;
 }
